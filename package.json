@@ -1,0 +1,43 @@
+{
+  "name": "starlight-biel",
+  "version": "0.1.0",
+  "description": "Ask AI bot for technical documentation.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "starlight-plugin",
+    "starlight",
+    "astro",
+    "withastro",
+    "ai",
+    "chatbot",
+    "search",
+    "documentation",
+    "ask-ai",
+    "rag"
+  ],
+  "repository": "https://github.com/TechDocsStudio/starlight-biel.git",
+  "homepage": "https://docs.biel.ai/installation/starlight",
+  "author": "TechDocs Studio <hi@techdocs.studio>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@astrojs/starlight": ">=0.32.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.2.2"
+  }
+}
