@@ -1,17 +1,17 @@
-# AI chatbot plugin for Starlight
+# AI assistant plugin for Starlight
 
-Ask AI chatbot plugin for [Starlight](https://starlight.astro.build) sites, powered by [Biel.ai](https://biel.ai).
+AI assistant plugin for [Starlight](https://starlight.astro.build) sites, powered by [Biel.ai](https://biel.ai).
 
-![AI chatbot Starlight](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
+![AI assistant Starlight](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
 
-Add an AI chatbot to your Starlight documentation using Biel.ai's plugin. The integration adds both chat and search capabilities to your site. No component overrides needed.
+Add an AI assistant to your Starlight documentation using Biel.ai's plugin. The integration adds both chat and search capabilities to your site. No component overrides needed.
 
 *Note: A Biel.ai plan is required to use this plugin. Try it free for 14 days—no credit card required.*
 
 ## Key features
 
-- AI chatbot that provides instant responses to documentation queries.
-- AI search engine for quick and relevant information retrieval.
+- AI assistant that answers questions from your documentation.
+- AI search to find relevant documentation.
 - Native Starlight plugin, no component overrides required.
 - Customizable to match your site's branding and user needs.
 
@@ -64,9 +64,17 @@ starlightBiel({
 
 Set `enable: false` to turn the widget off without removing the configuration.
 
+## MCP server for docs
+
+Biel.ai's [MCP server for docs](https://biel.ai/mcp-server-for-docs) lets Claude Code, Codex, and other compatible AI clients search and read the same indexed documentation as your website assistant.
+
+This plugin embeds the assistant on your website. Configure Biel.ai's hosted MCP endpoint separately in your AI client using the [MCP setup guide](https://docs.biel.ai/integrations/mcp-server).
+
+Hosted MCP requires a Biel.ai plan that includes MCP access. See [pricing](https://biel.ai/pricing) for current plan availability and limits.
+
 ## Get started
 
-See the [Starlight AI chatbot integration guide](https://docs.biel.ai/installation/starlight) for the full list of options and setup instructions.
+See the [Starlight AI assistant integration guide](https://docs.biel.ai/installation/starlight) for the full list of options and setup instructions.
 
 ## Support
 
