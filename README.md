@@ -1,6 +1,6 @@
 # AI assistant plugin for Starlight
 
-AI assistant plugin for [Starlight](https://starlight.astro.build) sites, powered by [Biel.ai](https://biel.ai).
+AI assistant plugin for [Starlight](https://starlight.astro.build) sites, with an **Ask AI** button powered by [Biel.ai](https://biel.ai).
 
 ![AI assistant Starlight](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
 
@@ -10,7 +10,7 @@ Add an AI assistant to your Starlight documentation using Biel.ai's plugin. The 
 
 ## Key features
 
-- AI assistant that answers questions from your documentation.
+- **Ask AI** button that opens an AI assistant to answer questions from your documentation.
 - AI search to find relevant documentation.
 - Connect menu to link the same indexed docs to Claude Code, Codex, and other compatible AI clients via [Biel.ai's hosted MCP server](https://docs.biel.ai/integrations/mcp-server), when MCP is enabled for your project on an [eligible plan](https://biel.ai/pricing).
 - Native Starlight plugin, no component overrides required.
