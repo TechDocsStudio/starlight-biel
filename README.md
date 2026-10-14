@@ -4,7 +4,7 @@ AI assistant plugin for [Starlight](https://starlight.astro.build) sites, with a
 
 ![AI assistant Starlight](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
 
-Add an AI assistant to your Starlight documentation using Biel.ai's plugin. The integration embeds the Ask AI button. Configure the documentation search widget separately. No component overrides needed.
+Add an AI assistant to your Starlight documentation using Biel.ai's plugin. The integration embeds the Ask AI button without component overrides. Configure the documentation search widget separately.
 
 *Note: A Biel.ai plan is required to use this plugin. Try it free for 14 days—no credit card required.*
 
