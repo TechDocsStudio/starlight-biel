@@ -4,15 +4,15 @@ AI assistant plugin for [Starlight](https://starlight.astro.build) sites, with a
 
 ![AI assistant Starlight](https://docs.biel.ai/assets/images/biel-widget-docs-bd28548cf26a37bcb7c496487280bbfe.png)
 
-Add an AI assistant to your Starlight documentation using Biel.ai's plugin. The integration adds both chat and search capabilities to your site. No component overrides needed.
+Add an AI assistant to your Starlight documentation using Biel.ai's plugin. The integration embeds the Ask AI button. Configure the documentation search widget separately. No component overrides needed.
 
 *Note: A Biel.ai plan is required to use this plugin. Try it free for 14 days—no credit card required.*
 
 ## Key features
 
 - **Ask AI** button that opens an AI assistant to answer questions from your documentation.
-- AI search to find relevant documentation.
-- Connect menu to link the same indexed docs to Claude Code, Codex, and other compatible AI clients via [Biel.ai's hosted MCP server](https://docs.biel.ai/integrations/mcp-server), when MCP is enabled for your project on an [eligible plan](https://biel.ai/pricing).
+- **Documentation search** to find matching pages from indexed docs with a separately configured search widget.
+- Connect menu to link the same indexed docs to Claude Code, Codex, and other compatible AI clients via [Biel.ai's hosted MCP server](https://docs.biel.ai/integrations/mcp-server).
 - Native Starlight plugin, no component overrides required.
 - Customizable to match your site's branding and user needs.
 
